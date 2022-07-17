@@ -1,0 +1,236 @@
+:root {
+   --accent-background-dark:#2F303A;
+   --accent-color-text:#757575;
+   --accent-color-header: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+/*================COMPONENTS===============*/
+
+/*================/COMPONENTS==============*/
+
+/*================HEADER===============*/
+.page-header {
+
+}
+
+.pege-nav {
+
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logodark {
+    color: #000;
+}
+.menu {
+
+}
+
+.menu-item {
+
+}
+
+.menu-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--accent-color-header);
+
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+
+.contact-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--accent-color-text);
+}
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: #2196F3;
+}
+
+.contact-email {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--accent-color-text);
+}
+
+.contact-email:hover,
+.contact-email:focus {
+    color: #2196F3;
+}
+/*================/HEADER===============*/
+
+/*==============HERO=======================*/
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000;
+    /*color: #FFFFFF;*/
+}
+
+.modal-btn {
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+/*==============/HERO=======================*/
+
+/*===============DESCRIPTION==========*/
+.section-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--accent-color-text);
+}
+
+.title-description {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--accent-color-header);
+}
+/*===============/DESCRIPTION==========*/
+
+/*===========COLLECTIVE===============*/
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--accent-color-header);
+}
+
+.profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--accent-color-text);
+}
+
+.title-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--accent-color-header);
+}
+/*===========/COLLECTIVE===============*/
+
+/*==============GALLERY================*/
+.services {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-color-header);
+}
+ .gallery-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-color-header);
+    background: #F5F4FA;   
+
+ }
+ .gallery-btn:hover,
+ .gallery-btn:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+ }
+
+ .project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--accent-color-header);
+ }
+
+.form-project {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color:var(--accent-color-text);
+}
+
+
+/*==============/GALLERY================*/
+
+/*================FOOTER========*/
+.logolight {
+    color: #FFFFFF;
+}
+
+.adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #000;
+    /*color: #FFFFFF;*/
+}
+
+.connection {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #000;
+    /*color: rgba(255, 255, 255, 0.6);*/
+}
+/*=================/FOOTER========*/
+
