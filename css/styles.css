@@ -2,6 +2,7 @@
    --accent-background-dark:#2F303A;
    --accent-color-text:#757575;
    --accent-color-header: #212121;
+   --blue-color:#2196F3;
 }
 
 .list {
@@ -10,8 +11,30 @@
 
 .link {
     text-decoration: none;
-
 }
+h1,
+h2,
+h3,
+h4,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+/*address {
+    font-style: normal;
+}
+button {
+    cursor: pointer;
+}*/
 
 body {
 font-family: 'Roboto', sans-serif;
@@ -35,7 +58,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--blue-color);
 }
 .logodark {
     color: #000;
@@ -59,7 +82,7 @@ font-family: 'Roboto', sans-serif;
 }
 .menu-link:hover,
 .menu-link:focus {
-    color: #2196F3;
+    color: var(--blue-color);
 }
 
 .contact-phone-number {
@@ -71,7 +94,7 @@ font-family: 'Roboto', sans-serif;
 }
 .contact-phone-number:hover,
 .contact-phone-number:focus {
-    color: #2196F3;
+    color:var(--blue-color);
 }
 
 .contact-email {
@@ -84,7 +107,7 @@ font-family: 'Roboto', sans-serif;
 
 .contact-email:hover,
 .contact-email:focus {
-    color: #2196F3;
+    color: var(--blue-color);
 }
 /*================/HEADER===============*/
 
@@ -103,7 +126,7 @@ font-family: 'Roboto', sans-serif;
 .modal-btn {
     font-family: 'Roboto', sans-serif;
     width: 200px;
-    background: #2196F3;
+    background: var(--blue-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
@@ -186,7 +209,7 @@ font-family: 'Roboto', sans-serif;
  .gallery-btn:hover,
  .gallery-btn:focus {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--blue-color);
  }
 
  .project {
