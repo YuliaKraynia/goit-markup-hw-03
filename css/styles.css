@@ -8,6 +8,7 @@
 .list {
     list-style: none;
     display: flex;
+    
 }
 
 .link {
@@ -136,7 +137,8 @@ margin-right: 50px;
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-background: var(--accent-background-dark);
+    background: var(--accent-background-dark);
+   
 }
 
 .main-title {
@@ -147,7 +149,14 @@ background: var(--accent-background-dark);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-}
+    padding-bottom: 30px;
+    width: 696px;
+    height: 120px;
+    margin: 0 auto;
+    display: block;
+    
+   
+ }
 
 .modal-btn {
     font-family: 'Roboto', sans-serif;
@@ -163,7 +172,13 @@ background: var(--accent-background-dark);
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-}
+    border: 0 solid;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+  }
+
+  
 /*==============/HERO=======================*/
 
 /*===============DESCRIPTION==========*/
@@ -171,7 +186,13 @@ background: var(--accent-background-dark);
 padding-top: 94px;
 padding-bottom: 94px;
 }
-
+.description {
+    display: flex;
+    gap: 30px;
+}
+.block-description {
+    flex-basis: calc ((100%-90px)/4);
+}
 .text-description {
     font-weight: 400;
     font-size: 14px;
@@ -187,6 +208,7 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--accent-color-header);
+    margin-bottom: 10px;
 }
 /*===============/DESCRIPTION==========*/
 
@@ -194,6 +216,14 @@ padding-bottom: 94px;
 .section-working {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.foto-work {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+}
+.foto {
+    flex-basis: calc ((100%-60px)/3);
 }
 
 /*================/WORKING=============*/
@@ -213,6 +243,7 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--accent-color-header);
+    margin-bottom: 10px;
 }
 
 .profession {
@@ -231,6 +262,18 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--accent-color-header);
+    margin-bottom: 50px;
+}
+.collective {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.foto-collective {
+    flex-basis: calc ((100%-90px)/4);
+}
+.collective-name-profession {
+    padding-top: 30px;
 }
 /*===========/COLLECTIVE===============*/
 
@@ -260,7 +303,10 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--accent-color-header);
-    background: #F5F4FA;   
+    background: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+   border: 0 solid;
 
  }
  .gallery-btn:hover,
@@ -268,13 +314,28 @@ padding-bottom: 94px;
     color: #FFFFFF;
     background: var(--blue-color);
  }
+.portfolio-btn {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 34px;
+    flex-basis: auto;
+}
+.gallery-foto-project {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
 
+    border: 1px solid #ccc;
+
+}
  .project {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--accent-color-header);
+    margin-bottom: 4px;
  }
 
 .form-project {
@@ -284,11 +345,25 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color:var(--accent-color-text);
 }
+.gallery-work {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.gallery-foto {
+    flex-basis: calc ((100%-240px)/9);
+}
 
 
 /*==============/GALLERY================*/
 
 /*================FOOTER========*/
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--accent-background-dark);
+}
+
 .logolight {
     color: #FFFFFF;
 }
@@ -299,8 +374,7 @@ padding-bottom: 94px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #000;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 
 .connection {
@@ -309,11 +383,17 @@ padding-bottom: 94px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #000;
-    /*color: rgba(255, 255, 255, 0.6);*/
+    color: rgba(255, 255, 255, 0.6);
 }
 .link-footer {
-
+    padding-bottom: 9px;
+}
+.adress-footer {
+    display: flex;
+    flex-direction:column;
+}
+.logo-footer {
+    margin-bottom: 20px;
 }
 /*=================/FOOTER========*/
 

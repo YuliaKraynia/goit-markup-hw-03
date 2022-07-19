@@ -43,29 +43,31 @@
     </header>
     <main>
     <!--HERO-->
-        <section class="hero">
+        <section class="hero hero-btn">
             <div class="container">
                 <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="modal-btn" type="button">Заказать услугу</button>
+                
+                    <button class="modal-btn" type="button">Заказать услугу</button>
+                
             </div>
         </section>
     <!--DESCRIPTION-->   
         <section class="section-description">
             <div class="container">
-                <ul class="list">
-                    <li>
+                <ul class="list description">
+                    <li class="block-description">
                         <p class="title-description">Внимание к деталям</p>
                         <p class="text-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li>
+                    <li class="block-description">
                         <p class="title-description">Пунктуальность</p>
                         <p class="text-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li>
+                    <li class="block-description">
                        <p class="title-description">Планирование</p>
                        <p class="text-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li>
+                    <li class="block-description">
                         <p class="title-description">Современные технологии</p>
                         <p class="text-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -77,22 +79,22 @@
         <section class="section-working">
             <div class="container">
                 <h2 class="title-section">Чем мы занимаемся</h2>
-                <ul class="list">
-                    <li>
+                <ul class="list foto-work">
+                    <li class="foto">
                         <img
                             src="./imeges/business/picture1.jpg"
                             alt="Работа студии"
                             width="370"
                             height="294">
                     </li>
-                    <li>
+                    <li class="foto">
                         <img
                             src="./imeges/business/picture2.jpg"
                                 alt="Работа студии"
                                 width="370"
                                 height="294">
                     </li>
-                    <li>
+                    <li class="foto">
                         <img
                             src="./imeges/business/picture3.jpg"
                             alt="Работа студии"
@@ -106,53 +108,61 @@
         <section class="collective-section">
             <div class="container">
                 <h2 class="title-section">Наша команда</h2>
-                <ul class="list">
-                    <li>
+                <ul class="list collective">
+                    <li class="foto-collective">
                         <img
                             src="./imeges/company/igor.jpg"
                             alt="Игорь Демьяненко"
                             width="270"
                             height="260">
-                        <h3 class="name">Игорь Демьяненко</h3>
-                        <p class="profession" lang="en">Product Designer</p>
+                        <div class="collective-name-profession">
+                            <h3 class="name">Игорь Демьяненко</h3>
+                            <p class="profession" lang="en">Product Designer</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="foto-collective">
                         <img
                             src="./imeges/company/olia.jpg"
                             alt="Ольга Репина"
                             width="270"
                             height="260">
-                        <h3 class="name">Ольга Репина</h3>
-                        <p class="profession" lang="en">Frontend Developer</p>
+                        <div class="collective-name-profession">
+                            <h3 class="name">Ольга Репина</h3>
+                            <p class="profession" lang="en">Frontend Developer</p>                                
+                        </div>
                     </li>
-                    <li>
+                    <li class="foto-collective">
                         <img
                             src="./imeges/company/nicolai.jpg"
                             alt="Николай Тарасов"
                             width="270"
                             height="260">
-                        <h3 class="name">Николай Тарасов</h3>
-                        <p class="profession" lang="en">Marketing</p>
+                        <div class="collective-name-profession">
+                            <h3 class="name">Николай Тарасов</h3>
+                            <p class="profession" lang="en">Marketing</p>
+                        </div>
                     </li>
-                    <li>
+                    <li class="foto-collective">
                         <img
                             src="./imeges/company/mihail.jpg"
                             alt="Михаил Ермаков"
                             width="270"
                             height="260">
-                        <h3 class="name">Михаил Ермаков</h3>
-                        <p class="profession" lang="en">UI Designer</p>
+                        <div class="collective-name-profession">
+                            <h3 class="name">Михаил Ермаков</h3>
+                            <p class="profession" lang="en">UI Designer</p>
+                        </div>    
                     </li>
                 </ul>
             </div> 
         </section>
     </main>
     <!--FOOTER-->
-    <footer>
+    <footer class="footer">
         <div class="container">
             <a class="link logo" href="WebStudio" lang="en">Web<span class="logolight">Studio</span></a>
             <address>
-                <ul class="list">
+                <ul class="list adress-footer">
                     <li>
                         <a class="link-footer adress"
                         href="https://goo.gl/maps/aPMMfaf2fwCcFUGt7"
