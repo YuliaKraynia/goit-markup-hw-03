@@ -60,7 +60,7 @@ font-family: 'Roboto', sans-serif;
     justify-content: space-between;
 }
 .page-header {
-
+    border: 1px solid #ECECEC;
 }
 
 .pege-nav {
@@ -149,9 +149,7 @@ margin-right: 50px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 30px;
     width: 696px;
-    height: 120px;
     margin: 0 auto;
     display: block;
     
@@ -184,7 +182,7 @@ margin-right: 50px;
 /*===============DESCRIPTION==========*/
 .section-description {
 padding-top: 94px;
-padding-bottom: 94px;
+
 }
 .description {
     display: flex;
@@ -192,6 +190,7 @@ padding-bottom: 94px;
 }
 .block-description {
     flex-basis: calc ((100%-90px)/4);
+    width: 270px;
 }
 .text-description {
     font-weight: 400;
@@ -215,7 +214,6 @@ padding-bottom: 94px;
 /*================WORKING=============*/
 .section-working {
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 .foto-work {
     display: flex;
@@ -230,10 +228,9 @@ padding-bottom: 94px;
 
 /*===========COLLECTIVE===============*/
 .collective-section {
-    padding-top: 186px;
+    padding-top: 94px;
     padding-bottom: 94px;
     background: #F5F4FA;
-
 }
 
 .name {
@@ -274,6 +271,10 @@ padding-bottom: 94px;
 }
 .collective-name-profession {
     padding-top: 30px;
+    padding-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 /*===========/COLLECTIVE===============*/
 
@@ -295,8 +296,8 @@ padding-bottom: 94px;
     font-family: 'Roboto', sans-serif;
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 22px;
+    padding-right: 22px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -306,8 +307,7 @@ padding-bottom: 94px;
     background: #F5F4FA;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-   border: 0 solid;
-
+    border: 0 solid;
  }
  .gallery-btn:hover,
  .gallery-btn:focus {
@@ -318,15 +318,15 @@ padding-bottom: 94px;
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     flex-basis: auto;
 }
 .gallery-foto-project {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
-
-    border: 1px solid #ccc;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 
 }
  .project {
@@ -375,6 +375,7 @@ padding-bottom: 94px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    
 }
 
 .connection {
@@ -386,14 +387,23 @@ padding-bottom: 94px;
     color: rgba(255, 255, 255, 0.6);
 }
 .link-footer {
-    padding-bottom: 9px;
+    text-decoration: none;
+    margin-top: 20px;
 }
 .adress-footer {
     display: flex;
     flex-direction:column;
+
 }
-.logo-footer {
-    margin-bottom: 20px;
+
+.adress-footer-map {
+    margin-top: 20px;
+}
+.email-footer {
+    margin-top: 9px;
+}
+.tel-footer {
+    margin-top: 9px;
 }
 /*=================/FOOTER========*/
 
