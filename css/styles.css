@@ -214,6 +214,7 @@ padding-top: 94px;
 /*================WORKING=============*/
 .section-working {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .foto-work {
     display: flex;
@@ -406,4 +407,8 @@ padding-top: 94px;
     margin-top: 9px;
 }
 /*=================/FOOTER========*/
+
+
+
+
 
